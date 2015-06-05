@@ -12,7 +12,7 @@ pwm.start(5)
 
 pwm.ChangeDutyCycle(17.5)
 
-UDP_IP = "192.168.8.103"
+UDP_IP = "127.0.0.1"
 UDP_PORT = 5005
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
